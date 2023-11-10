@@ -4,11 +4,14 @@
     "description": "This collection package integrates the server and client for deployment.",
     "main": "server/app.js",
     "scripts": {
-      "postinstall": "npm install --prefix server && npm install --prefix client && npm install --only=dev --prefix client && npm run build --prefix client"
+        "postinstall": "npm install --prefix server && npm install --prefix client && npm install --only=dev --prefix client && npm run build --prefix client"
     },
-    "engines" : {
-      "npm" : "6.x",
-      "node": "14.x"
+    "engines": {
+        "npm": "6.x",
+        "node": "14.x"
+    },
+    "devDependencies": {
+        "eslint": "^8.53.0",
+        "eslint-plugin-vue": "^9.18.1"
     }
-  }
-  
+}
