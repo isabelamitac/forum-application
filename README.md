@@ -54,23 +54,23 @@ npm run serve
 
 ## Time spent on the case
 
-[-] setting up the project: about 1-2 hours
-[-] backend: about 3-4 hours
-[-] frontend: more than 5 hours
+* setting up the project: about 1-2 hours
+* backend: about 3-4 hours
+* frontend: more than 5 hours
 
 ## Project description
 
 Thread Talk is a simple forum application that allows users to add posts and comments.
 
 Specific API endpoints have been implememnted in the backend such as: 
-• Add post 
-• Add comment &lt;post_id&gt; 
-• Edit comment &lt;post_id&gt; 
-• Delete comment &lt;post_id&gt; 
-• View post &lt;post_id&gt; 
-• Update post &lt;post_id&gt; 
-• Delete post &lt;post_id&gt; 
-• View all (view all the posts) 
-• Sort post &lt;date&gt;
+* Add post 
+* Add comment &lt;post_id&gt; 
+* Edit comment &lt;post_id&gt; 
+* Delete comment &lt;post_id&gt; 
+* View post &lt;post_id&gt; 
+* Update post &lt;post_id&gt; 
+* Delete post &lt;post_id&gt; 
+* View all (view all the posts) 
+* Sort post &lt;date&gt;
 
 A Postman collection along with some simple tests can be found in the /server/tests/ folder.
