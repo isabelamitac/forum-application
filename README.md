@@ -62,6 +62,8 @@ npm run serve
 
 Thread Talk is a simple forum application that allows users to add posts and comments.
 
+Due to time constraints, the frontend only has the functionality of adding a post and viewing all the posts.
+
 Specific API endpoints have been implememnted in the backend such as: 
 * Add post 
 * Add comment &lt;post_id&gt; 
